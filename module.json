@@ -1,0 +1,70 @@
+{
+  "id": "dualitys-denizes",
+  "title": "🐉🔮Duality's Denizes🔮🐉",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Модуль, в котором собраны неигровые персонажи для системы Daggerheart (Foundryborne).</p>",
+  "authors": [
+    {
+      "name": "NIKTOken",
+      "url": "https://boosty.to/niktoart",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+
+  "packFolders": [
+    {
+      "name": "🐉 Duality's Denizes Compendium 🔮", 
+      "sorting": "a",
+      "color": "#9400d3", 
+      "folders": [], 
+      "packs": [
+        "DH-adv"
+      ]
+    }
+  ],
+
+  "packs": [
+    {
+      "name": "DH-adv",
+      "label": "🔮 NIKTO | DH Adversaries | RU 🐉",
+      "path": "packs/DH-adv",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "daggerheart-plus",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "daggerheart-ru",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+
+  "manifest": "",
+  "download": ""
+}
