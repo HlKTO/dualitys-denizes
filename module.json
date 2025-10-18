@@ -17,7 +17,7 @@
   
 
   "manifest": "https://raw.githubusercontent.com/HlKTO/dualitys-denizes/master/module.json", 
-  "download": "https://github.com/HlKTO/dualitys-denizes/releases/download/v0.1.0/dualitys-denizes.rar",
+  "download": "https://github.com/HlKTO/dualitys-denizes/releases/download/v0.1.0/dualitys-denizes.zip",
   
   "flags": {
     "canUpload": true
