@@ -14,27 +14,42 @@
       "flags": {}
     }
   ],
+  
+
+  "manifest": "https://raw.githubusercontent.com/HlKTO/dualitys-denizes/master/module.json", 
+  "download": "https://github.com/HlKTO/dualitys-denizes/releases/download/v0.1.0/dualitys-denizes.rar",
+  
   "flags": {
     "canUpload": true
   },
-
   "packFolders": [
     {
-      "name": "🐉 Duality's Denizes Compendium 🔮", 
+      "name": "🐉 NIKTO | DD's Compendium 🔮",
       "sorting": "a",
-      "color": "#9400d3", 
-      "folders": [], 
+      "color": "#9400d3",
+      "folders": [],
       "packs": [
-        "DH-adv"
+        "DH-adv",
+        "DH-env"
       ]
     }
   ],
-
   "packs": [
     {
       "name": "DH-adv",
-      "label": "🔮 NIKTO | DH Adversaries | RU 🐉",
+      "label": "DH Adversaries | RU",
       "path": "packs/DH-adv",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "DH-env",
+      "label": "DH Environments | RU",
+      "path": "packs/DH-env",
       "type": "Actor",
       "system": "daggerheart",
       "ownership": {
@@ -64,7 +79,4 @@
       }
     ]
   }
-
-  "manifest": "",
-  "download": ""
 }
